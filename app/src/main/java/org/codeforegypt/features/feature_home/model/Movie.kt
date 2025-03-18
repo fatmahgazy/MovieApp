@@ -1,7 +1,7 @@
 package org.codeforegypt.features.feature_home.model
 
 import kotlinx.serialization.Serializable
-import org.codeforegypt.domain.model.MovieResult
+import org.codeforegypt.common.model.MovieResult
 
 @Serializable
 data class Movie(

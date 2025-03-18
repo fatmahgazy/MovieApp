@@ -1,11 +1,10 @@
 package org.codeforegypt.features.feature_movie_details.data.repository
 
-import android.util.Log
-import org.codeforegypt.domain.model.MovieResult
+import org.codeforegypt.common.model.MovieResult
 import org.codeforegypt.features.feature_movie_details.data.remote.DetailsApiService
 import javax.inject.Inject
 
-class RepositoryImp @Inject constructor( private val apiService: DetailsApiService): IRepository {
+class DetailsRepositoryImp @Inject constructor(private val apiService: DetailsApiService): IDetailsRepository {
     override suspend fun getDetailsById(movieId: Int): MovieResult? {
         return try {
             val response = apiService.getMovieDetailsById(movieId)

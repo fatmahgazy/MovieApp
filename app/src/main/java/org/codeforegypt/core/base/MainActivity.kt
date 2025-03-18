@@ -1,4 +1,4 @@
-package org.codeforegypt
+package org.codeforegypt.core.base
 
 
 import android.os.Bundle
@@ -7,8 +7,6 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.rememberNavController
 import dagger.hilt.android.AndroidEntryPoint
-import org.codeforegypt.core.navigation.Navigation
-import org.codeforegypt.core.navigation.Screen
 
 
 @AndroidEntryPoint

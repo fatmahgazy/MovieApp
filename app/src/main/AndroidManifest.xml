@@ -7,7 +7,7 @@
 
 
     <application
-        android:name="org.codeforegypt.MovieApp"
+        android:name="org.codeforegypt.core.base.MovieApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -18,7 +18,7 @@
         android:theme="@style/Theme.MovieApp"
         tools:targetApi="31">
         <activity
-            android:name="org.codeforegypt.MainActivity"
+            android:name="org.codeforegypt.core.base.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MovieApp">

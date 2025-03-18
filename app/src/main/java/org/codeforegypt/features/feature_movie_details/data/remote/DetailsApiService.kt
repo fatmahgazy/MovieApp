@@ -1,6 +1,6 @@
 package org.codeforegypt.features.feature_movie_details.data.remote
 
-import org.codeforegypt.domain.model.MovieResult
+import org.codeforegypt.common.model.MovieResult
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path

@@ -1,6 +1,6 @@
-package org.codeforegypt.domain.usecase
+package org.codeforegypt.common.usecase
 
-import org.codeforegypt.data.repository.MovieRepository
+import org.codeforegypt.common.repository.MovieRepository
 import javax.inject.Inject
 
 class IsMovieFavoriteUseCase @Inject constructor(private val repository: MovieRepository) {

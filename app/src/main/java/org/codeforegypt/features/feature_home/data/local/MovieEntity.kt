@@ -3,7 +3,7 @@ package org.codeforegypt.features.feature_home.data.local
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.serialization.Serializable
-import org.codeforegypt.domain.model.MovieResult
+import org.codeforegypt.common.model.MovieResult
 
 @Serializable
 @Entity(tableName = "favorite_movies")

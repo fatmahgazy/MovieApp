@@ -9,9 +9,9 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import org.codeforegypt.features.feature_movie_details.presentation.State.UiState
 import org.codeforegypt.features.feature_home.data.local.MovieEntity
-import org.codeforegypt.domain.model.MovieResult
-import org.codeforegypt.domain.usecase.IsMovieFavoriteUseCase
-import org.codeforegypt.domain.usecase.ToggleFavoriteUseCase
+import org.codeforegypt.common.model.MovieResult
+import org.codeforegypt.common.usecase.IsMovieFavoriteUseCase
+import org.codeforegypt.common.usecase.ToggleFavoriteUseCase
 import org.codeforegypt.features.feature_movie_details.domain.usecase.GetDetailsByIdUseCase
 import javax.inject.Inject
 
@@ -21,7 +21,7 @@ class DetailsScreenViewModel @Inject constructor(
     private val toggleFavoriteUseCase: ToggleFavoriteUseCase,
     private val isMovieFavoriteUseCase: IsMovieFavoriteUseCase,
 
-    ) : ViewModel() {
+    ): ViewModel() {
 
     private val _movieState = MutableStateFlow<UiState<MovieResult>>(UiState.Loading)
     val movieState: StateFlow<UiState<MovieResult>> = _movieState.asStateFlow()

@@ -1,4 +1,4 @@
-package org.codeforegypt.core.navigation
+package org.codeforegypt.core.base
 
 import androidx.compose.runtime.Composable
 
@@ -19,7 +19,7 @@ fun Navigation(
     ) {
     NavHost(
         navController = navController,
-        startDestination = startDestination,
+        startDestination = startDestination
 
         ) {
         composable(Screen.HomeScreen.route) {

@@ -3,16 +3,16 @@ package org.codeforegypt.features.feature_home.data.repository
 import android.util.Log
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.onEach
-import org.codeforegypt.domain.model.MovieResult
+import org.codeforegypt.common.model.MovieResult
 import org.codeforegypt.features.feature_home.data.local.MovieDao
 import org.codeforegypt.features.feature_home.data.local.MovieEntity
 import org.codeforegypt.features.feature_home.remote.HomeApiService
 import javax.inject.Inject
 
-class RepositoryImp @Inject constructor(
+class HomeRepositoryImp @Inject constructor(
     private val apiService: HomeApiService,
     private val movieDao: MovieDao
-): IRepository {
+): IHomeRepository {
     override suspend fun getMoviesFromApi(): List<MovieResult> {
         return try {
             val response = apiService.getMoviePopular()

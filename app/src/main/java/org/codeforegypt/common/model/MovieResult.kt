@@ -1,4 +1,4 @@
-package org.codeforegypt.domain.model
+package org.codeforegypt.common.model
 
 import kotlinx.serialization.Serializable
 
