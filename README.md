@@ -15,6 +15,20 @@ This is a movie listing application that displays the best movies of 2024 using 
   - Favorite status (syncs with the main list)
 
 ---
+## 🖼️ Screenshots
+
+### **Movie Listing Screen**
+This screen displays a list of the best movies of 2024 with images, titles, ratings, and release dates.
+
+![Movie Listing Screen](screenshots/home_screen.png)
+
+---
+
+### **Movie Details Screen**
+This screen shows detailed information about a selected movie, including its overview, vote average, original language, and favorite status.
+
+![Movie Details Screen](screenshots/details_screen.png)
+
 
 ## 🏗️ Tech Stack
 - **Language**: Kotlin
@@ -26,7 +40,28 @@ This is a movie listing application that displays the best movies of 2024 using 
   
 ---
 
+--
 ## 🔧 Installation & Setup
+
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/fatmahgazy/MovieApp.git
+    ```bash
+     git clone https://github.com/fatmahgazy/MovieApp.git
+    ```
+2. Open the project in **Android Studio**.
+3. Sync Gradle and build the project.
+4. Run the app on an emulator or a physical device.
+
+---
+## 📦 About
+No description, website, or topics provided.
+
+---
+
+## 🌟 Contributing
+Pull requests are welcome! If you find a bug or have a feature request, feel free to open an issue.
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
