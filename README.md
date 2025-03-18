@@ -52,10 +52,6 @@ This screen shows detailed information about a selected movie, including its ove
 4. Run the app on an emulator or a physical device.
 
 ---
-## 📦 About
-No description, website, or topics provided.
-
----
 
 ## 🌟 Contributing
 Pull requests are welcome! If you find a bug or have a feature request, feel free to open an issue.
